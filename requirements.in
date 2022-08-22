@@ -13,6 +13,7 @@ hatchling==1.8.0
 hatch-vcs==0.2.0
 jupyter==1.0.0
 ptvsd==4.3.2
-jedi==0.18.1
-ipykernel
+jedi==0.17.2
+ipykernel==6.15.1
 wrapt==1.14.1
+python-language-server==0.36.1
