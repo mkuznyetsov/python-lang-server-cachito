@@ -1,0 +1,9 @@
+dill==0.3.5.1
+platformdirs==2.5.2
+astroid==2.11.6
+isort==5.10.1
+mccabe==0.7.0
+tomli==2.0.1
+tomlkit==0.11.4
+typing_extensions==4.3.0
+pylint==2.14.5
