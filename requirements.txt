@@ -263,10 +263,3 @@ wrapt==1.14.1
     # via
     #   -r requirements.in
     #   astroid
-
-# The following packages are considered to be unsafe in a requirements file:
-setuptools==65.2.0
-    # via
-    #   astroid
-    #   ipython
-    #   setuptools-scm
