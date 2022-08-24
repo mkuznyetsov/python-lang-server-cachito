@@ -46,11 +46,14 @@ fastjsonschema==2.16.1
     # via nbformat
 flit-core==3.7.1
     # via -r requirements.in
+hatch-fancy-pypi-readme==22.3.0
+    # via -r requirements.in
 hatch-vcs==0.2.0
     # via -r requirements.in
 hatchling==1.8.0
     # via
     #   -r requirements.in
+    #   hatch-fancy-pypi-readme
     #   hatch-vcs
 ipykernel==6.15.1
     # via
@@ -145,6 +148,13 @@ nest-asyncio==1.5.5
     #   notebook
 notebook==6.4.12
     # via jupyter
+packaging==21.3
+    # via
+    #   hatchling
+    #   ipykernel
+    #   nbconvert
+    #   qtpy
+    #   setuptools-scm
 pandocfilters==1.5.0
     # via nbconvert
 parso==0.7.1
@@ -191,6 +201,8 @@ pygments==2.13.0
     #   qtconsole
 pylint==2.14.5
     # via -r requirements.in
+pyparsing==3.0.9
+    # via packaging
 pyrsistent==0.18.1
     # via jsonschema
 python-dateutil==2.8.2
@@ -211,6 +223,8 @@ qtpy==2.2.0
     # via qtconsole
 send2trash==1.8.0
     # via notebook
+setuptools-scm==7.0.5
+    # via hatch-vcs
 six==1.16.0
     # via
     #   asttokens
@@ -224,6 +238,13 @@ terminado==0.15.0
     # via notebook
 tinycss2==1.1.1
     # via nbconvert
+tomli==2.0.1
+    # via
+    #   -r requirements.in
+    #   hatch-fancy-pypi-readme
+    #   hatchling
+    #   pylint
+    #   setuptools-scm
 tomlkit==0.11.4
     # via
     #   -r requirements.in
@@ -247,6 +268,12 @@ traitlets==5.3.0
     #   nbformat
     #   notebook
     #   qtconsole
+typing-extensions==4.3.0
+    # via
+    #   -r requirements.in
+    #   astroid
+    #   pylint
+    #   setuptools-scm
 ujson==5.4.0
     # via
     #   python-jsonrpc-server
@@ -263,3 +290,10 @@ wrapt==1.14.1
     # via
     #   -r requirements.in
     #   astroid
+
+# The following packages are considered to be unsafe in a requirements file:
+setuptools==65.3.0
+    # via
+    #   astroid
+    #   ipython
+    #   setuptools-scm
