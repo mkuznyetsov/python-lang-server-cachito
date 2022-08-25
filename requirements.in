@@ -13,6 +13,7 @@ hatchling==1.8.0
 hatch-vcs==0.2.0
 hatch-fancy-pypi-readme==22.3.0
 jupyter==1.0.0
+jupyter_packaging==0.12.2
 ptvsd==4.3.2
 jedi==0.17.2
 ipykernel==6.15.1

@@ -30,6 +30,8 @@ decorator==5.1.1
     # via ipython
 defusedxml==0.7.1
     # via nbconvert
+deprecation==2.1.0
+    # via jupyter-packaging
 dill==0.3.5.1
     # via
     #   -r requirements.in
@@ -107,6 +109,8 @@ jupyter-core==4.11.1
     #   nbformat
     #   notebook
     #   qtconsole
+jupyter-packaging==0.12.2
+    # via -r requirements.in
 jupyterlab-pygments==0.2.2
     # via nbconvert
 jupyterlab-widgets==3.0.2
@@ -150,8 +154,10 @@ notebook==6.4.12
     # via jupyter
 packaging==21.3
     # via
+    #   deprecation
     #   hatchling
     #   ipykernel
+    #   jupyter-packaging
     #   nbconvert
     #   qtpy
     #   setuptools-scm
@@ -248,6 +254,7 @@ tomli==2.0.1
 tomlkit==0.11.4
     # via
     #   -r requirements.in
+    #   jupyter-packaging
     #   pylint
 tornado==6.2
     # via
@@ -284,6 +291,8 @@ webencodings==0.5.1
     # via
     #   bleach
     #   tinycss2
+wheel==0.37.1
+    # via jupyter-packaging
 widgetsnbextension==4.0.2
     # via ipywidgets
 wrapt==1.14.1
@@ -296,4 +305,5 @@ setuptools==65.3.0
     # via
     #   astroid
     #   ipython
+    #   jupyter-packaging
     #   setuptools-scm
