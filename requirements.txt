@@ -37,6 +37,8 @@ cfgv==3.3.1
     # via pre-commit
 charset-normalizer==2.1.1
     # via requests
+cython==0.29.32
+    # via -r requirements.in
 debugpy==1.6.3
     # via ipykernel
 decorator==5.1.1

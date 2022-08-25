@@ -17,6 +17,7 @@ jupyter_packaging==0.12.2
 jupyterlab==3.4.5
 pre-commit==2.20.0
 ptvsd==4.3.2
+cython==0.29.32
 jedi==0.17.2
 ipykernel==6.15.1
 wrapt==1.14.1
