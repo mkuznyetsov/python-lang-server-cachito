@@ -162,7 +162,7 @@ jupyter-server==1.18.1
     #   notebook-shim
 jupyterlab==3.4.5
     # via -r requirements.in
-jupyterlab-pygments==0.2.1
+jupyterlab-pygments==0.2.2
     # via nbconvert
 jupyterlab-server==2.15.1
     # via jupyterlab
